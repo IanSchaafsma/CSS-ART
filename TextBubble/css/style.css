@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color: #D8594A;
+    --texting-color: #000000;
+    --textBubble-color: #FFFFFF;
+    --textBubbleBorder: #000000;
+}
+
+body{
+    background:var(--background-color);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbubble{
+    position: relative;
+    animation-name: popup;
+    animation-duration: 0.8s;
+    
+}
+
+input{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0;
+    height: 0;
+}
+
+input:checked ~ .bubble .circle{
+    animation-name: typing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+label{
+    width: 270px;
+    height: 265px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.bubble{
+    width: 270px;
+    height: 200px;
+    background: var(--textBubble-color);
+    border-radius: 50%;
+    border: 5px solid var(--textBubbleBorder) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    background: var(--texting-color);
+    border-radius: 50%;
+}
+
+.circle--second{
+    animation-delay: 0.5s;
+}
+
+.circle--third{
+    animation-delay: 1s;
+}
+
+.triangle, .triangleBackground{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 0% 0%);
+}
+
+.triangle{
+    width: 40px;
+    height: 40px;
+    background: var(--textBubble-color);
+    top: 97%;
+}
+
+.triangleBackground{
+    width: 50px;
+    height: 50px;
+    background: var(--textBubbleBorder);
+    top: 98%;
+}
+
+@keyframes popup {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }   
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes typing {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

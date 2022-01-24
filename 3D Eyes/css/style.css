@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #090910;
+    min-height: 100vh;
+}
+
+.eyes{
+    display:flex;
+    gap:20px;
+}
+
+.eyes .iris{
+    transition: 0.5s;
+}
+.eye{
+    width: 140px;
+    height: 260px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+.eyes:hover .iris{
+    top:43%;
+    left:15%;
+}
+
+.iris{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #30D733;
+    background: linear-gradient(#b28806,70%,#f4ba08);
+    position: absolute;
+    top:24%;
+    left:28%;
+}
+
+.pupil{
+    width: 65%;
+    height: 65%;
+    border-radius: 50%;
+    background: #000000;
+}
+
+.shimmering{
+    width: 30%;
+    height: 35%;
+    background: #FFFFFF;
+    position:absolute;
+    top: 10%;
+    left: 18%;
+    border-radius: 50%;
+    transform: rotate(30deg);
+
+}
+
+/* utilities */
+
+.u-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
