@@ -7,7 +7,7 @@
 :root{
     --background-color: #197a8c;
     --background-dark-color: #176d7d;
-    --hoothoot-body-color: #7B4840;     /*Shiny Hoothoot #F4A442 */
+    --hoothoot-body-color: #7B4840;     /*Normal Hoothoot:#7B4840 Shiny Hoothoot:#F4A442*/ 
     --hoothoot-belly-color: #D2AE9F;
     --hoothoot-eye-color: #A13333;
     --hoothoot-beak-light-color: #F779A0;
