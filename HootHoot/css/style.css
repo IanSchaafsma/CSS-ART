@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color: #197a8c;
+    --background-dark-color: #176d7d;
+    --hoothoot-body-color: #7B4840;     /*Shiny Hoothoot #F4A442 */
+    --hoothoot-belly-color: #D2AE9F;
+    --hoothoot-eye-color: #A13333;
+    --hoothoot-beak-light-color: #F779A0;
+    --hoothoot-beak-dark-color: #F5598A;
+    --hoothoot-black-color: #000000;
+    --hoothoot-black-transparent-color: #04030366;
+}
+
+body{
+    background: linear-gradient(160deg, var(--background-color), var(--background-dark-color));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoothoot{
+    position: relative;
+}
+
+.hoothoot:hover > .hoothoot__eye > .hoothoot__shut{
+    transform: scaleY(0);
+}
+
+.hoothoot__body{
+    height: 415px;
+    width: 400px;
+    background: var(--hoothoot-body-color);
+    border-radius: 50%;
+    border: 3px solid var(--hoothoot-black-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.hoothoot__belly{
+    width: 110%;
+    height: 100%;
+    background: var(--hoothoot-belly-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: blur(2px);
+}
+
+.hoothoot__eye{
+    height: 170px;
+    width: 170px;
+    background: var(--hoothoot-eye-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 12%;
+    border: 20px solid  var(--hoothoot-black-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.hoothoot__eye--left{
+    left: 9%;
+}
+
+.hoothoot__eye--right{
+    right: 9%;
+}
+
+.hoothoot__pupil{
+    width: 40px;
+    height: 40px;
+    background: var(--hoothoot-black-color);
+    border-radius: 50%;
+
+}
+
+.hoothoot__shut{
+    width: 100%;
+    height: 100%;
+    background: var(--hoothoot-body-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: scaleY(1);
+    transition: 0.5s all;
+    transform-origin: top center;
+    border-bottom: 5px solid var(--hoothoot-black-color);
+}
+
+.hoothoot__eyelid{
+    position: absolute;
+    background: var(--hoothoot-black-color);
+    width: 30px;
+    height: 50px;
+}
+
+.hoothoot__eyelid--first{
+    top: 40%;
+    left: 10%;
+    transform: rotate(50deg);
+}
+
+.hoothoot__eyelid--second{
+    height: 55px;
+    left: 19%;
+    top: 48%;
+    transform: rotate(20deg);
+}
+
+.hoothoot__eyelid--third{
+    left: 33%;
+    top: 45%;
+    transform: rotate(-20deg);
+}
+
+.hoothoot__eyelid--fourth{
+    right: 33%;
+    top: 45%;
+    transform: rotate(20deg);
+}
+
+.hoothoot__eyelid--fifth{
+    height: 55px;
+    right: 19%;
+    top: 48%;
+    transform: rotate(-20deg);
+}
+
+.hoothoot__eyelid--sixth{   
+    top: 40%;
+    right: 10%;
+    transform: rotate(-50deg);
+}
+
+.hoothoot__beak{
+    width: 55px;
+    height: 90px;
+    background: linear-gradient(var(--hoothoot-beak-light-color),50%,var(--hoothoot-beak-dark-color));
+    border-radius: 50%;
+    border: 3px solid var(--hoothoot-black-color);
+    position: absolute;
+    left: 50%;
+    top: 33%;
+    transform: translateX(-50%);
+    z-index: 2;
+    overflow: hidden;
+}
+
+.hoothoot__mouth{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-left: 5px solid var(--hoothoot-black-color);
+    border-bottom: 5px solid var(--hoothoot-black-color);
+    transform: rotate(-45deg);
+    top: 10%;
+}
+
+.hoothoot__eyebrow{
+    width: 25px;
+    height: 190px;
+    background: var(--hoothoot-black-color);
+    position: absolute;
+    top: -11%;
+}
+
+.hoothoot__eyebrow--left{
+    left: 35%;
+    transform: rotate(-50deg);
+}
+
+.hoothoot__eyebrow--right{
+    right: 35%;
+    transform: rotate(50deg);
+}
+
+.hoothoot__pointer{
+    width: 110px;
+    height: 160px;
+    background: linear-gradient(var(--hoothoot-black-transparent-color), 20%, var(--hoothoot-black-color));
+    position: absolute;
+    clip-path: polygon(50% 0, 100% 80%, 60% 100%, 40% 100%, 0 80%);
+}
+
+.hoothoot__pointer--left{
+    left: -4%;
+    transform: rotate(-50deg);
+    top: -30.5%;
+}
+
+.hoothoot__pointer--right{
+    right: -4%;
+    transform: rotate(50deg);
+    top: -30%;
+}
