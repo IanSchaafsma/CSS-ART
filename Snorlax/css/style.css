@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --snorlax--primary: #29738F;
+    --snorlax--secondary: #F1E5D8;
+    --snorlax--tertiary: #000000;
+    --snorlax--teeth--white: #eee;
+    --background--gray: #161616;
+    --background--black: #000000;
+}
+
+html{
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+
+body{
+    background: linear-gradient(130deg, var(--background--gray) 80%, var(--background--black));
+    font-size: 2rem;
+}
+
+.snorlax{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.snorlax--head{
+    width: 55rem;
+    height: 45rem;
+    background: var(--snorlax--primary);
+    border-radius: 49%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.snorlax--head__fur{
+    background: var(--snorlax--secondary);
+    width: 85%;
+    height: 85%;
+    border-radius: 49%;
+    position: relative;
+}
+
+.snorlax--head__fur2{
+    background: var(--snorlax--primary);
+    width: 50%;
+    height: 20%;
+    border-radius: 49%;
+    clip-path: polygon(100% 0%, 0% 0%, 50% 100%);
+    position: absolute;
+    top: -1%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.snorlax--head__ear{
+    background: var(--snorlax--primary);
+    border-radius: 45%;
+    position: absolute;
+    z-index: -1;
+}
+
+.snorlax--head__ear-left{
+    height: 21rem;
+    width: 24rem;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+    transform: skew(5deg, 30deg) rotate(7deg);
+    left: 0.7rem;
+    top: 0rem;
+}
+
+
+.snorlax--head__ear-right{
+    height: 21rem;
+    width: 24rem;
+    clip-path: polygon(0% 0%, 100%  100%, 100% 0%);
+    transform: skew(-5deg, -30deg) rotate(7deg);
+    left: 31.7rem;
+    top: 0rem;
+}
+
+.snorlax--head__eye{
+    width: 10rem;
+    height: 0.2rem;
+    border: 0.3rem solid var(--snorlax--tertiary);
+    border-radius: 5rem;
+    position: absolute;
+
+}
+
+.snorlax--head__eye-1{
+    top: 35%;
+    left: 20%;
+}
+
+.snorlax--head__eye-2{
+    top: 35%;
+    left: 62%;
+}
+
+.snorlax--head__mouth{
+}
+
+.snorlax--head__mouth__smile{
+    width: 17rem;
+    height: 0.6rem;
+    background: var(--snorlax--tertiary);
+    position: absolute;
+    border-radius: 5rem;
+    top: 60%;
+    left: 50%;
+    transform: translatex(-50%);
+
+}
+
+.snorlax--head__mouth__tooth{
+    width: 2rem;
+    height: 2rem;
+    background: var(--snorlax--tertiary);
+    transform: translatex(-50%);
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.snorlax--head__mouth__tooth-1{
+    top: 56%;
+    left: 36.35%;
+}
+
+.snorlax--head__mouth__tooth-2{
+    top: 56%;
+    left: 63.6%;
+}
+
+.tooth__shadow{
+    background: var(--snorlax--teeth--white);
+    width: 1.4rem;
+    height: 1.3rem;
+}
+
+.tooth__shadow-1{
+    top: 57.3%;
+    left: 36.35%;
+}
+
+.tooth__shadow-2{
+    top: 57.3%;
+    left: 63.6%;
+}

@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color-light: #3462AE;
+    --background-color-dark: #0E4482;
+    --pokeball-red: #ee1515;
+    --pokeball-red-shine: #fab3b3;
+    --pokeball-white: #f0f0f0;
+    --pokeball-black: #222224;
+    --pokeball-black-shadow: #00000066;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(20deg, var(--background-color-light), var(--background-color-dark)) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokeball{
+    position: relative;
+}
+
+input{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0;
+    height: 0;
+}
+
+input:checked ~ .pokeball__circle{
+    animation-name: capture-shake;
+    animation-duration: 2.5s;
+    transform-origin: bottom;
+}
+
+label{
+    width: 10rem;
+    height: 10rem;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+.pokeball__circle{
+    height: 60rem;
+    width: 60rem;
+    border: 1.7rem solid var(--pokeball-black);
+    border-radius: 50%;
+    background: linear-gradient(var(--pokeball-red) 50%, var(--pokeball-white) 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset -1rem -1.25rem 0.1rem 0.15rem var(--pokeball-black-shadow);
+}
+
+.pokeball__lid--top{
+    position: absolute;
+    top: 8.7rem;
+    left: 10.1rem;
+}
+
+.pokeball__lid--top--shine{
+    width: 10rem;
+    height: 7rem;
+    border-radius: 50%;
+    transform: rotate(145deg);
+    background: var(--pokeball-red-shine);
+    
+}
+
+.pokeball__lid--middle{
+    width: 100%;
+}
+
+.pokeball__lid--middle--blackline{
+    background: var(--pokeball-black);
+    height: 1.7rem;
+    width: 100%;
+}
+
+.pokeball__lid--middle--button{
+    background: var(--pokeball-white);
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0.7rem var(--pokeball-black), 
+                0 0 0 1.9rem var(--pokeball-white),
+                0 0 0 3.4rem var(--pokeball-black);
+    transform: translateY(-50%);
+}
+
+.pokeball__lid--bottom{
+    
+}
+
+@keyframes capture-shake {
+    0%{
+        transform: rotate(0deg);   
+
+    }
+    20%{
+        transform: rotate(-35deg);
+    
+    }
+    40%{
+        transform: rotate(35deg);
+        
+    }
+    60%{
+        transform: rotate(-15deg);
+    
+    }
+    80%{
+        transform: rotate(15deg);
+        
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
