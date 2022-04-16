@@ -15,3 +15,5 @@
 
 ### 3D eyes
 <img src="/img/eyes--css-art.png" alt="two yellow eyes in the dark made with css">
+
+An image of the desktop version
