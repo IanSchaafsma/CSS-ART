@@ -1,5 +1,5 @@
 # Hi welcome to my css-art collection.
-#### Here you can find all of my css-art creations.
+#### Here you can find all of my css-art.
 
 
 ### List of css-art made:
