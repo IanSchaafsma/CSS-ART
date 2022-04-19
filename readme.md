@@ -14,7 +14,7 @@
 * Verkeersborden (W.I.P)
 
 ### 3D eyes
-[![The finished product on desktop](/img/eyes--css-art.png)]() 
+[![The finished product on desktop](/img/eyes--css-art.png)](https://ian.css-art.nl/video/css-art--3D-Eyes-demo.mp4) 
 A demonstration video of the desktop version.
 
 These 3D eyes were made for a school assignment in HTML and CSS.
@@ -25,7 +25,7 @@ Try it yourself: https://ian.css-art.nl/3D%20Eyes/
 
 
 ### HootHoot
-[![The finished product on desktop](/img/hoothoot--css-art.png)]() 
+[![The finished product on desktop](/img/hoothoot--css-art.png)](https://ian.css-art.nl/video/css-art--hoothoot-demo.mp4) 
 A demonstration video of the desktop version.
 
 This HootHoot was made for a school assignment in HTML and CSS.
@@ -36,7 +36,7 @@ Try it yourself: https://ian.css-art.nl/HootHoot/
 
 
 ### Nintendo Switch
-[![The finished product on desktop](/img/nintendo-switch--css-art.png)]() 
+[![The finished product on desktop](/img/nintendo-switch--css-art.png)](https://ian.css-art.nl/video/css-art--nintendo-switch-demo.mp4) 
 A demonstration video of the desktop version.
 
 This Nintendo Switch logo was made for a school assignment in HTML and CSS.
@@ -47,7 +47,7 @@ Try it yourself: https://ian.css-art.nl/Nintendo%20Switch/
 
 
 ### Pokéball
-[![The finished product on desktop](/img/pokeball--css-art.png)]() 
+[![The finished product on desktop](/img/pokeball--css-art.png)](https://ian.css-art.nl/video/css-art--pokeball-demo.mp4) 
 A demonstration video of the desktop version.
 
 This Pokéball was made just for fun in HTML and CSS.
@@ -58,7 +58,7 @@ Try it yourself: https://ian.css-art.nl/Pok%c3%a9ball/
 
 
 ### Post-Its
-[![The finished product on desktop](/img/post-its--css-art.png)]() 
+[![The finished product on desktop](/img/post-its--css-art.png)](https://ian.css-art.nl/video/css-art---post-its-demo.mp4) 
 A demonstration video of the desktop version.
 
 These post its were made for a school assignment in HTML and CSS.
@@ -79,7 +79,7 @@ Try it yourself: https://ian.css-art.nl/Snorlax/
 
 
 ### Sphere
-[![The finished product on desktop](/img/sphere--css-art.png)]() 
+[![The finished product on desktop](/img/sphere--css-art.png)](https://ian.css-art.nl/video/css-art--Sphere-demo.mp4) 
 A demonstration video of the desktop version.
 
 This 3D looking sphere was made for a school assignment in HTML and CSS.
@@ -89,7 +89,7 @@ Try it yourself: https://ian.css-art.nl/Sphere/
 
 
 ### Text Bubble
-[![The finished product on desktop](/img/textbubble--css-art.png)]() 
+[![The finished product on desktop](/img/textbubble--css-art.png)](https://ian.css-art.nl/video/css-art--textbubble-demo.mp4) 
 A demonstration video of the desktop version.
 
 This text bubble was made for a school assignment in HTML and CSS.
