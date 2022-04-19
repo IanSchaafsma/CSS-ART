@@ -21,7 +21,7 @@ These 3D eyes were made for a school assignment in HTML and CSS.
 The eyes have been made in a 3D looking style and are interactive. If you hover over them
 they move to the bottom left.
 
-Try it yourself:
+Try it yourself: https://ian.css-art.nl/3D%20Eyes/
 
 
 ### HootHoot
@@ -32,7 +32,7 @@ This HootHoot was made for a school assignment in HTML and CSS.
 HootHoot is a bird like creature from the Pokémon series.
 The eyes open up when you hover over him.
 
-Try it yourself:
+Try it yourself: https://ian.css-art.nl/HootHoot/
 
 
 ### Nintendo Switch
@@ -43,7 +43,7 @@ This Nintendo Switch logo was made for a school assignment in HTML and CSS.
 The nintendo switch is a gaming console. The colors are chosen to the splatoon edition.
 When you load in the page you will see the iconic click animation.
 
-Try it yourself:
+Try it yourself: https://ian.css-art.nl/Nintendo%20Switch/
 
 
 ### Pokéball
@@ -54,7 +54,7 @@ This Pokéball was made just for fun in HTML and CSS.
 The pokéball is a device with wich you capture the pokémon.
 When you click on the button of the pokéball the little capture animation plays.
 
-Try it yourself:
+Try it yourself: https://ian.css-art.nl/Pok%c3%a9ball/
 
 
 ### Post-Its
@@ -65,7 +65,7 @@ These post its were made for a school assignment in HTML and CSS.
 This is the first css-art that I have ever made. If you hover over the cards they move,
 and then go back smoothly to their original state.
 
-Try it yourself:
+Try it yourself: https://ian.css-art.nl/Post-Its/
 
 
 ### Snorlax
@@ -75,7 +75,7 @@ An image of the desktop version.
 This pokémon named Snorlax was made just for fun in HTML and CSS.
 Its not finished yet as I want to add some interactive features.
 
-Try it yourself:
+Try it yourself: https://ian.css-art.nl/Snorlax/
 
 
 ### Sphere
@@ -85,7 +85,7 @@ A demonstration video of the desktop version.
 This 3D looking sphere was made for a school assignment in HTML and CSS.
 A sphere with a heartshaped icon in the middle, when you hover over it it lights up.
 
-Try it yourself:
+Try it yourself: https://ian.css-art.nl/Sphere/
 
 
 ### Text Bubble
@@ -96,4 +96,4 @@ This text bubble was made for a school assignment in HTML and CSS.
 A typing like text bubble, when you click on it it makes a texting like animation.
 You can click on it again to stop it.
 
-Try it yourself:
+Try it yourself: https://ian.css-art.nl/TextBubble/
