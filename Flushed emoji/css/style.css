@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* 1rem == 10px */
+}
+
+body{
+    font-size: 2rem;
+    background: #4557d3;
+}
+
+.flushEmoji{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.flushEmoji--face{
+    width: 65rem;
+    height: 65rem;
+    background: #ffcc4d;
+    border-radius: 50%;
+    position: relative;
+}
+
+.flushEmoji--face__eyebrow{
+    width: 20rem;
+    height: 20rem;
+    border: 0.5rem solid transparent;
+    border-top: 2.5rem solid #5e4000;
+    border-radius: 50%;
+    position: absolute;
+    top: 16%;
+}
+
+.flushEmoji--face__eyebrows-left{
+    left: 15%;
+    transform: rotate(-12deg);
+}
+
+.flushEmoji--face__eyebrows-right{
+    left: 55%;
+    transform: rotate(12deg);
+}
+
+.flushEmoji--face__eyes{
+    position: relative;
+    min-height: 100%;    
+}
+
+.flushEmoji--face__eye{
+    width: 20rem;
+    height: 20rem;
+    background: #f5f8fa;
+    position: absolute;
+    top: 28%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.flushEmoji--face__eyes-left{
+    left: 17%;
+}
+
+.flushEmoji--face__eyes-right{
+    left: 53%;
+}
+
+.iris-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.flushEmoji--face__eyes-iris{
+    width: 9rem;
+    height: 9rem;
+    background: #292f33;
+    border-radius: 50%;
+}
+
+.flushEmoji--face__blush{
+    width: 23rem;
+    height: 18rem;
+    background: #ff7892;
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    z-index: 0;
+    filter:blur(50px);
+}
+
+.flushEmoji--face__blushes-left{
+    left: 7%;
+}
+
+.flushEmoji--face__blushes-right{
+    left: 65%;
+}
+
+.flushEmoji--face__mouth__smile{
+    width: 20rem;
+    height: 4rem;
+    border-radius: 10rem;
+    background: #664500;
+    position: absolute;
+    top: 76%;
+    left: 35%;
+}
