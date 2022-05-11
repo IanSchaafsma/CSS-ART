@@ -12,6 +12,7 @@
 * Sphere
 * TextBubble
 * Verkeersborden (W.I.P)
+* Flushed Emoji (W.I.P)
 
 ### 3D eyes
 [![The finished product on desktop](/img/eyes--css-art.png)]() 
@@ -95,5 +96,15 @@ A demonstration video of the desktop version.
 This text bubble was made for a school assignment in HTML and CSS.
 A typing like text bubble, when you click on it it makes a texting like animation.
 You can click on it again to stop it.
+
+Try it yourself:
+
+
+### Flushed Emoji
+[![The finished product on desktop](/img/flushed-emoji--css-art.png)]()
+An image of the desktop version.
+
+This flushed emoji was made just for fun in HTML and CSS.
+Its not finished yet as I want to add some interactive features in the future.
 
 Try it yourself:
