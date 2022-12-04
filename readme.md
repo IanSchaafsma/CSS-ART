@@ -13,6 +13,7 @@
 * TextBubble
 * Verkeersborden (W.I.P)
 * Flushed Emoji (W.I.P)
+* Cookie Monster
 
 ### 3D eyes
 [![The finished product on desktop](/img/eyes--css-art.png)]() 
@@ -106,5 +107,13 @@ An image of the desktop version.
 
 This flushed emoji was made just for fun in HTML and CSS.
 Its not finished yet as I want to add some interactive features in the future.
+
+Try it yourself:
+
+### Cookie Monster
+[![The finished product on desktop](/img/cookiemonster--css-art.png)]()
+An image of the desktop version.
+
+A cookie monster made with css. Which also has a unique feature where it tracks the cookie with his eyes whenever you move it by clicking on it, made with js.
 
 Try it yourself:
